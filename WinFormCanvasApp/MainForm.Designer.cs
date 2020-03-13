@@ -39,10 +39,9 @@
             this.panelBrowser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelBrowser.Location = new System.Drawing.Point(1, -58);
-            this.panelBrowser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelBrowser.Location = new System.Drawing.Point(2, -79);
             this.panelBrowser.Name = "panelBrowser";
-            this.panelBrowser.Size = new System.Drawing.Size(821, 371);
+            this.panelBrowser.Size = new System.Drawing.Size(1232, 561);
             this.panelBrowser.TabIndex = 0;
             // 
             // panelButtons
@@ -50,17 +49,19 @@
             this.panelButtons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelButtons.Controls.Add(this.buttonRefresh);
-            this.panelButtons.Location = new System.Drawing.Point(1, 313);
+            this.panelButtons.Location = new System.Drawing.Point(2, 482);
+            this.panelButtons.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelButtons.Name = "panelButtons";
-            this.panelButtons.Size = new System.Drawing.Size(821, 30);
+            this.panelButtons.Size = new System.Drawing.Size(1232, 46);
             this.panelButtons.TabIndex = 1;
             // 
             // buttonRefresh
             // 
             this.buttonRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonRefresh.Location = new System.Drawing.Point(5, 3);
+            this.buttonRefresh.Location = new System.Drawing.Point(8, 5);
+            this.buttonRefresh.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonRefresh.Name = "buttonRefresh";
-            this.buttonRefresh.Size = new System.Drawing.Size(75, 23);
+            this.buttonRefresh.Size = new System.Drawing.Size(112, 35);
             this.buttonRefresh.TabIndex = 0;
             this.buttonRefresh.Text = "Refresh";
             this.buttonRefresh.UseVisualStyleBackColor = true;
@@ -68,13 +69,12 @@
             // 
             // formMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 344);
+            this.ClientSize = new System.Drawing.Size(1234, 529);
             this.Controls.Add(this.panelButtons);
             this.Controls.Add(this.panelBrowser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "formMain";
             this.Text = "Review & Sign";
             this.TopMost = true;
